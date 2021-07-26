@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background: #efeeee;
+    height: 100vh;
+  }
+
+.winner{
+    color:green;
+}
+
+.loser{
+    color:red
+}
+
+.container {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 3em;
+    height: 320px;
+    border-radius: 20px;
+    display: block;
+    box-shadow:
+    10px 10px 16px -2px rgb(179, 179, 179),
+    -10px -10px 16px -2px #fff;
+    box-sizing: border-box;
+}
+
+.game {
+  text-align: center;
+  position: relative;
+  padding: 3em;
+}
+
+button{
+    font-size: 1.8 em;
+}
